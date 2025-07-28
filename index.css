@@ -1,0 +1,73 @@
+/* karla-latin-wght-normal */
+@font-face {
+  font-family: 'Karla Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/karla:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    color: #f7f7f7;
+    font-family: 'Karla Variable', sans-serif;
+    font-size: 16px;
+}
+
+span {
+    color: #4adf86;
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items:flex-start;
+    width: 100vh;
+    padding: .75em;
+}
+
+hr {
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+}
+
+button {
+    color: #f7f7f7;
+    background-color: #10b981;
+    border: none;
+    padding: .75rem 1rem;
+    border-radius: .35rem;
+    font-size: .85em;
+    font-weight: 500;
+    letter-spacing: .05rem;
+    margin: 2rem 0rem 1rem;
+}
+
+#container-passwords {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+#container-passwords>span{
+    padding: .5rem .85rem;
+    background-color: #273549;
+    width: 42%;
+    border-radius: .35rem;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
