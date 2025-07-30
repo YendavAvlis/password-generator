@@ -59,6 +59,12 @@ button {
     font-weight: 500;
     letter-spacing: .05rem;
     margin: 2rem 0rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: rgba(223, 201, 74, 0.27) 0px 0px 0.25em, rgba(223, 196, 74, 0.05) 0px 0.25em 1em;
+    transition: all .25s ease-in-out;
 }
 
 #container-passwords {

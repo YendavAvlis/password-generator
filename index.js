@@ -27,6 +27,14 @@ generate.addEventListener('click', () => {
 
 console.log(spans)
 
+// :D
+spans.forEach(item => (
+    item.addEventListener('click', () => {
+        alert('Password Copied!')
+    })
+))
+// :D
+
 
 async function writeClipboardText(password) {
     try {
