@@ -3,6 +3,7 @@ let characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P
 const passwordOne = document.querySelector('#password-one')
 const passwordTwo = document.querySelector('#password-two')
 const generate = document.querySelector('#generate')
+const spans = document.querySelectorAll('.password')
 
 console.log(passwordOne.textContent)
 
@@ -23,6 +24,8 @@ generate.addEventListener('click', () => {
         passwordTwo.textContent += characters[randomIndexTwo]
     }
 })
+
+console.log(spans)
 
 
 async function writeClipboardText(password) {

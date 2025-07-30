@@ -21,7 +21,13 @@ body {
 }
 
 span {
-    color: #4adf86;
+    color: rgb(74, 223, 134);
+    cursor: pointer;
+}
+
+span:hover {
+    box-shadow: rgba(74, 223, 134, 0.27) 0px 0px 0.25em, rgba(74, 223, 134, 0.05) 0px 0.25em 1em;
+    transition: all .25s ease-in-out;
 }
 
 h1{
