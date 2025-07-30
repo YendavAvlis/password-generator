@@ -30,7 +30,8 @@ console.log(spans)
 // :D
 spans.forEach(item => (
     item.addEventListener('click', () => {
-        alert('Password Copied!')
+
+        writeClipboardText(item)
     })
 ))
 // :D
@@ -39,6 +40,7 @@ spans.forEach(item => (
 async function writeClipboardText(password) {
     try {
         await navigator.clipboard.writeText(password.textContent);
+        alert('Password Copied!')
     } catch (error) {
         console.error(error.message);
     }
